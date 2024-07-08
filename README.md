@@ -6,6 +6,8 @@
 - [Cài đặt](#cài-đặt)
 - [Sử dụng](#sử-dụng)
 - [Giao Diện](#giao-diện)
+- [Chức năng](#chức-năng)
+
 
 ## Giới thiệu
 
@@ -43,3 +45,5 @@ Xóa ghi chú
 ![alt text](image-5.png)
 
 
+## Chức năng
+Thêm, sửa, xóa, ghi chú, bấm thời gian, kéo thả từ đang làm sang hoàn thành
