@@ -1,4 +1,4 @@
-# Trình theo dõi công việc
+# Trình Theo Dõi Công Việc
 
 ## Mục lục
 
@@ -7,7 +7,6 @@
 - [Sử dụng](#sử-dụng)
 - [Giao Diện](#giao-diện)
 - [Chức năng](#chức-năng)
-
 
 ## Giới thiệu
 
@@ -19,31 +18,68 @@ Trình theo dõi công việc là một công cụ giúp bạn quản lý và th
 
 1. **Clone kho lưu trữ**:
 
-   ```sh
-   git clone <https://github.com/ngtinn59/MiniApp>
-   cd task-tracker
-   npm install 
+    ```sh
+    git clone https://github.com/ngtinn59/MiniApp
+    cd MiniApp
+    ```
+
+2. **Cài đặt các gói phụ thuộc**:
+
+    ```sh
+    npm install
+    ```
+
+3. **Chạy ứng dụng**:
+
+    ```sh
+    npm start
+    ```
+
+Ứng dụng sẽ chạy trên `http://localhost:3000`.
+
+## Sử dụng
+
+Khi đã cài đặt và chạy ứng dụng, bạn có thể sử dụng các chức năng sau:
+
+- **Thêm ghi chú**: Cho phép người dùng tạo và thêm ghi chú mới vào danh sách công việc.
+- **Sửa ghi chú**: Người dùng có thể chỉnh sửa nội dung của các ghi chú đã tạo.
+- **Xóa ghi chú**: Người dùng có thể xóa các ghi chú không còn cần thiết.
+- **Kéo thả ghi chú**: Người dùng có thể kéo và thả ghi chú từ danh sách công việc đang làm sang danh sách đã hoàn thành.
+
 ## Giao Diện
-Trang chủ
-![alt text](image.png)
 
-Thêm một ghi chú mới
-![alt text](image-1.png)
+### Trang chủ
 
+![Trang chủ](image.png)
 
-Thêm ghi chú thành công ở mục đang làm
-![alt text](image-2.png)
+### Thêm một ghi chú mới
 
-Kéo thả sang đã hoàn thành
-![alt text](image-3.png)
+![Thêm ghi chú mới](image-1.png)
 
-Sửa ghi chú
-![alt text](image-4.png)
+### Thêm ghi chú thành công ở mục đang làm
 
-Xóa ghi chú
+![Thêm ghi chú thành công](image-2.png)
 
-![alt text](image-5.png)
+### Kéo thả sang đã hoàn thành
 
+![Kéo thả sang đã hoàn thành](image-3.png)
+
+### Sửa ghi chú
+
+![Sửa ghi chú](image-4.png)
+
+### Xóa ghi chú
+
+![Xóa ghi chú](image-5.png)
 
 ## Chức năng
-Thêm, sửa, xóa, ghi chú, bấm thời gian, kéo thả từ đang làm sang hoàn thành
+
+Ứng dụng hỗ trợ các chức năng sau:
+
+- **Thêm ghi chú**: Người dùng có thể tạo và thêm ghi chú mới vào danh sách công việc.
+- **Sửa ghi chú**: Cho phép người dùng chỉnh sửa nội dung của các ghi chú đã tạo.
+- **Xóa ghi chú**: Người dùng có thể xóa các ghi chú không còn cần thiết.
+- **Bấm thời gian**: Theo dõi và quản lý thời gian cho từng ghi chú.
+- **Kéo thả ghi chú**: Người dùng có thể kéo và thả ghi chú từ danh sách công việc đang làm sang danh sách đã hoàn thành.
+
+Hy vọng rằng ứng dụng này sẽ giúp bạn quản lý và theo dõi công việc một cách hiệu quả!
