@@ -49,13 +49,13 @@ function App() {
         </div>
         <div className='flex flex-row'>
           <div className='w-full'>
-            <h2 className='ml-6 text-xl font-semibold w-3/4 max-w-lg my-4 py-2 px-4 bg-gray-200'>Đang làm:</h2>
+            <h2 className='ml-6 text-xl font-semibold w-3/4 max-w-lg my-4 py-2 px-4 bg-gray-200 rounded-xl'>Đang làm:</h2>
             {taskList.slice(0).reverse().map((task, i) => (
               <ToDo key={task.timestamp} task={task} index={i} taskList={taskList} setTaskList={setTaskList} />
             ))}
           </div>
           <div className='w-full flex flex-col' ref={drop}>
-            <h2 className='ml-6 text-xl font-semibold w-3/4 max-w-lg my-4 py-2 px-4 bg-gray-200'>Đã hoàn thành:</h2>
+            <h2 className='ml-6 text-xl font-semibold w-3/4 max-w-lg my-4 py-2 px-4 bg-gray-200 rounded-xl'>Đã hoàn thành:</h2>
             {completed.slice(0).reverse().map((task, i) => (
               <ToDo key={task.timestamp} task={task} index={i} taskList={completed} setTaskList={setCompleted} />
             ))}
