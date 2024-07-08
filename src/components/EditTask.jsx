@@ -35,7 +35,7 @@ const EditTask = ({ task, index, taskList, setTaskList }) => {
         className='bg-gray-400 text-white text-sm uppercase font-semibold py-1.5 px-3 rounded-lg'
         onClick={() => setEditModal(true)}
       >
-        Edit
+        Chỉnh sửa
       </button>
       {editModal && (
         <div className='flex items-center justify-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50'>
@@ -58,7 +58,7 @@ const EditTask = ({ task, index, taskList, setTaskList }) => {
                     className='tracking-wide uppercase text-gray-700 text-xs font-semibold mb-2'
                     htmlFor='project-name'
                   >
-                    Project Name
+                    Tên ghi chú
                   </label>
                   <input
                     className='w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-5 leading-tight focus:outline-none focus:bg-white'
@@ -74,7 +74,7 @@ const EditTask = ({ task, index, taskList, setTaskList }) => {
                     className='tracking-wide uppercase text-gray-700 text-xs font-semibold mb-2'
                     htmlFor='task-description'
                   >
-                    Task Description
+                    Mô tả ghi chú
                   </label>
                   <textarea
                     className='w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-5 leading-tight focus:outline-none focus:bg-white'
@@ -92,7 +92,7 @@ const EditTask = ({ task, index, taskList, setTaskList }) => {
                     className='bg-blue-500 text-white font-semibold uppercase text-sm px-6 py-3 rounded hover:opacity-70'
                     type='submit'
                   >
-                    Save Task
+                    Lưu ghi chú
                   </button>
                 </div>
               </form>

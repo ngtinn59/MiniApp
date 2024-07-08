@@ -60,16 +60,16 @@ const ToDo = ({ task, index, taskList, setTaskList }) => {
           </div>
           <div className="w-1/3 max-w-sm flex flex-row justify-evenly">
             {running ? (
-              <button className="border rounded-lg py-1 px-3" onClick={handleStop}>Stop</button>
+              <button className="border rounded-lg py-1 px-3" onClick={handleStop}>Dừng</button>
             ) : (
-              <button className="border rounded-lg py-1 px-3" onClick={() => setRunning(true)}>Start</button>
+              <button className="border rounded-lg py-1 px-3" onClick={() => setRunning(true)}>Chạy</button>
             )}
-            <button className="border rounded-lg py-1 px-3" onClick={() => setTime(0)}>Reset</button>
+            <button className="border rounded-lg py-1 px-3" onClick={() => setTime(0)}>Chạy lại</button>
           </div>
         </div>
         <div className="w-full flex justify-center">
           <button className="bg-red-500 text-white px-6 py-2 rounded-md mt-6 mb-1" onClick={handleDelete}>
-            Delete
+            Xóa
           </button>
         </div>
       </div>

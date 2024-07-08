@@ -41,7 +41,7 @@ const AddTask = ({ taskList, setTaskList }) => {
           <div className='relative w-auto my-6 mx-auto max-w-3xl'>
             <div className='border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none'>
               <div className='flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t'>
-                <h3 className='text-3xl font-semibold'>Add new task</h3>
+                <h3 className='text-3xl font-semibold'>Thêm ghi chú</h3>
                 <button
                   className='p-1 ml-auto bg-transparent border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none'
                   onClick={() => setAddModal(false)}
@@ -57,14 +57,14 @@ const AddTask = ({ taskList, setTaskList }) => {
                     className='tracking-wide uppercase text-gray-700 text-xs font-semibold mb-2'
                     htmlFor='project-name'
                   >
-                    Project Name
+                    Tên ghi chú
                   </label>
                   <input
                     className='w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-5 leading-tight focus:outline-none focus:bg-white'
                     id='project-name'
                     name='projectName'
                     type='text'
-                    placeholder='Project name'
+                    placeholder='Tên ghi chú'
                     value={projectName}
                     onChange={handleInput}
                     required
@@ -73,7 +73,7 @@ const AddTask = ({ taskList, setTaskList }) => {
                     className='tracking-wide uppercase text-gray-700 text-xs font-semibold mb-2'
                     htmlFor='task-description'
                   >
-                    Task Description
+                    mô tả ghi chú
                   </label>
                   <textarea
                     className='w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-5 leading-tight focus:outline-none focus:bg-white'
@@ -82,7 +82,7 @@ const AddTask = ({ taskList, setTaskList }) => {
                     value={taskDescription}
                     onChange={handleInput}
                     rows='5'
-                    placeholder='Task description'
+                    placeholder='Mô tả ghi chú'
                     required
                   />
                 </div>
@@ -91,7 +91,7 @@ const AddTask = ({ taskList, setTaskList }) => {
                     className='bg-blue-500 text-white font-semibold uppercase text-sm px-6 py-3 rounded hover:opacity-70'
                     type='submit'
                   >
-                    Add Task
+                    Thêm ghi chú
                   </button>
                 </div>
               </form>
